@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlmhelix"
+version = "0.1.0"
+description = "Alignment-free discovery of conserved RNA structures from single sequences with a distilled RNA language model"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+# Versions used for the paper: torch 2.11.0, transformers 5.5.4, multimolecule 0.0.9, ViennaRNA 2.7.2,
+# numba 0.65.0, numpy 2.4.4, scipy 1.17.1, pandas 3.0.2, pyarrow 26.0.0. The language-model stack is pinned to the
+# tested releases: newer multimolecule releases fail to import or change the scores, and multimolecule 0.0.9 fails
+# with transformers 5.9 and later. The other lower bounds have not been tested further back.
+dependencies = [
+    "torch>=2.11",
+    "transformers>=5.5,<5.6",
+    "multimolecule==0.0.9",
+    "ViennaRNA>=2.7",
+    "numba>=0.60",
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "pandas>=2.2",
+    "joblib>=1.4",
+    "pyarrow>=14",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+data = ["openpyxl>=3.1"]  # reads Supplementary Table S8 as .xlsx (download_data.py --encode-table, catalogue build --eclip)
+
+[project.scripts]
+rlmhelix = "rlmhelix.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rlmhelix = ["models/*.pt", "models/*.json", "data/*.tsv"]
+
+[tool.pytest.ini_options]
+markers = ["model: needs the RiNALMo-giga backbone (downloaded from Hugging Face; a GPU is recommended)"]

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+# downloaded inputs and intermediate results
+data/raw/
+data/cache/
+cache_*/
+results/

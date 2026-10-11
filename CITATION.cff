@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use RLMHelix or the RLM-Fam catalogue, please cite the paper below."
+title: "RLMHelix"
+abstract: "Alignment-free discovery of conserved RNA structures from single sequences with a distilled RNA language model."
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/Shunsuke-1994/rlmhelix"
+authors:
+  - family-names: Sumi
+    given-names: Shunsuke
+    orcid: "https://orcid.org/0000-0003-1007-9472"
+  - family-names: Adachi
+    given-names: Shungo
+    orcid: "https://orcid.org/0000-0001-5232-411X"
+  - family-names: Saito
+    given-names: Hirohide
+    orcid: "https://orcid.org/0000-0002-8570-5784"
+  - family-names: Hamada
+    given-names: Michiaki
+    orcid: "https://orcid.org/0000-0001-9466-1034"
+preferred-citation:
+  type: article
+  title: "Alignment-free discovery of conserved RNA structures in the human genome"
+  authors:
+    - family-names: Sumi
+      given-names: Shunsuke
+    - family-names: Adachi
+      given-names: Shungo
+    - family-names: Saito
+      given-names: Hirohide
+    - family-names: Hamada
+      given-names: Michiaki
+  # journal, year and DOI to be added at publication

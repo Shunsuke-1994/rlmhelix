@@ -1,0 +1,22 @@
+# Environment of the paper (versions as used). Rebuilt from scratch and tested on 2026-10-11 (Linux aarch64, CUDA).
+name: rlmhelix
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - viennarna=2.7.2
+  - numba=0.65.0
+  - numpy=2.4.4
+  - scipy=1.17.1
+  - pandas=3.0.2
+  - joblib
+  - openpyxl=3.1.5   # reads Supplementary Table S8 as .xlsx (download_data.py --encode-table, catalogue build --eclip)
+  - pip
+  - pip:
+      - torch==2.11.0
+      - transformers==5.5.4
+      - multimolecule==0.0.9
+      - pyarrow==26.0.0
+      - pytest
+      - -e ..

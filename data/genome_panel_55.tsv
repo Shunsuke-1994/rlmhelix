@@ -1,0 +1,56 @@
+scientific_name	common_name	taxon_id	lineage_group	search_stage	ensembl116_assembly	ensembl116_GCA	assembly_kind	assembly_name_in_file	ensembl_slug
+Homo sapiens	human	9606	primate	query; expansion (paralogous loci)	GRCh38.p14	GCA_000001405.29	primary_assembly	GRCh38	homo_sapiens
+Pan troglodytes	chimpanzee	9598	primate	expansion (35 genomes)	Pan_tro_3.0	GCA_000001515.5	toplevel	Pan_tro_3.0	pan_troglodytes
+Pan paniscus	bonobo	9597	primate	expansion (35 genomes)	panpan1.1	GCA_000258655.2	toplevel	panpan1.1	pan_paniscus
+Gorilla gorilla	gorilla	9595	primate	expansion (35 genomes)	gorGor4	GCA_000151905.3	toplevel	gorGor4	gorilla_gorilla
+Pongo abelii	orangutan	9601	primate	expansion (35 genomes)	Susie_PABv2	GCA_002880775.3	toplevel	Susie_PABv2	pongo_abelii
+Nomascus leucogenys	gibbon	61853	primate	seed search (20 species)	Nleu_3.0	GCA_000146795.3	toplevel	Nleu_3.0	nomascus_leucogenys
+Macaca mulatta	rhesus macaque	9544	primate	expansion (35 genomes)	Mmul_10	GCA_003339765.3	toplevel	Mmul_10	macaca_mulatta
+Macaca fascicularis	crab-eating macaque	9541	primate	expansion (35 genomes)	Macaca_fascicularis_6.0	GCA_011100615.1	toplevel	Macaca_fascicularis_6.0	macaca_fascicularis
+Macaca nemestrina	pig-tailed macaque	9545	primate	expansion (35 genomes)	Mnem_1.0	GCA_000956065.1	toplevel	Mnem_1.0	macaca_nemestrina
+Papio anubis	baboon	9555	primate	expansion (35 genomes)	Panubis1.0	GCA_008728515.1	toplevel	Panubis1.0	papio_anubis
+Mandrillus leucophaeus	drill	9568	primate	expansion (35 genomes)	Mleu.le_1.0	GCA_000951045.1	toplevel	Mleu.le_1.0	mandrillus_leucophaeus
+Cercocebus atys	sooty mangabey	9531	primate	expansion (35 genomes)	Caty_1.0	GCA_000955945.1	toplevel	Caty_1.0	cercocebus_atys
+Chlorocebus sabaeus	green monkey	60711	primate	expansion (35 genomes)	ChlSab1.1	GCA_000409795.2	toplevel	ChlSab1.1	chlorocebus_sabaeus
+Colobus angolensis	Angola colobus	336983	primate	expansion (35 genomes)	Cang.pa_1.0	GCA_000951035.1	toplevel	Cang.pa_1.0	colobus_angolensis_palliatus
+Piliocolobus tephrosceles	red colobus	591936	primate	seed search (20 species)	ASM277652v2	GCA_002776525.2	toplevel	ASM277652v2	piliocolobus_tephrosceles
+Rhinopithecus roxellana	golden snub-nosed monkey	61622	primate	expansion (35 genomes)	Rrox_v1	GCA_000769185.1	toplevel	Rrox_v1	rhinopithecus_roxellana
+Rhinopithecus bieti	black snub-nosed monkey	61621	primate	expansion (35 genomes)	ASM169854v1	GCA_001698545.1	toplevel	ASM169854v1	rhinopithecus_bieti
+Callithrix jacchus	marmoset	9483	primate	seed search (20 species)	mCalJac1.pat.X	GCA_011100555.1	toplevel	mCalJac1.pat.X	callithrix_jacchus
+Cebus imitator	capuchin	2715852	primate	seed search (20 species)	Cebus_imitator-1.0	GCA_001604975.1	toplevel	Cebus_imitator-1.0	cebus_imitator
+Saimiri boliviensis	squirrel monkey	39432	primate	expansion (35 genomes)	SaiBol1.0	GCA_000235385.1	toplevel	SaiBol1.0	saimiri_boliviensis_boliviensis
+Aotus nancymaae	owl monkey	37293	primate	seed search (20 species)	Anan_2.0	GCA_000952055.2	toplevel	Anan_2.0	aotus_nancymaae
+Carlito syrichta	tarsier	1868482	primate	seed search (20 species)	Tarsius_syrichta-2.0.1	GCA_000164805.2	toplevel	Tarsius_syrichta-2.0.1	carlito_syrichta
+Microcebus murinus	mouse lemur	30608	primate	seed search (20 species)	Mmur_3.0	GCA_000165445.3	toplevel	Mmur_3.0	microcebus_murinus
+Propithecus coquereli	Coquerel's sifaka	379532	primate	seed search (20 species)	Pcoq_1.0	GCA_000956105.1	toplevel	Pcoq_1.0	propithecus_coquereli
+Prolemur simus	greater bamboo lemur	1328070	primate	expansion (35 genomes)	Prosim_1.0	GCA_003258685.1	toplevel	Prosim_1.0	prolemur_simus
+Otolemur garnettii	bushbaby	30611	primate	seed search (20 species)	OtoGar3	GCA_000181295.3	toplevel	OtoGar3	otolemur_garnettii
+Mus musculus	mouse	10090	nonprimate_mammal	expansion (35 genomes)	GRCm39	GCA_000001635.9	primary_assembly	GRCm39	mus_musculus
+Rattus norvegicus	rat	10116	nonprimate_mammal	seed search (20 species)	GRCr8	GCA_036323735.1	toplevel	GRCr8	rattus_norvegicus
+Oryctolagus cuniculus	rabbit	9986	nonprimate_mammal	expansion (35 genomes)	OryCun2.0	GCA_000003625.1	toplevel	OryCun2.0	oryctolagus_cuniculus
+Canis lupus familiaris	dog	9615	nonprimate_mammal	seed search (20 species)	ROS_Cfam_1.0	GCA_014441545.1	toplevel	ROS_Cfam_1.0	canis_lupus_familiaris
+Felis catus	cat	9685	nonprimate_mammal	expansion (35 genomes)	F.catus_Fca126_mat1.0	GCA_018350175.1	toplevel	F.catus_Fca126_mat1.0	felis_catus
+Equus caballus	horse	9796	nonprimate_mammal	expansion (35 genomes)	EquCab3.0	GCA_002863925.1	toplevel	EquCab3.0	equus_caballus
+Bos taurus	cow	9913	nonprimate_mammal	seed search (20 species)	ARS-UCD2.0	GCA_002263795.4	toplevel	ARS-UCD2.0	bos_taurus
+Ovis aries	sheep	9940	nonprimate_mammal	expansion (35 genomes)	ARS-UI_Ramb_v3.0	GCA_016772045.2	toplevel	ARS-UI_Ramb_v3.0	ovis_aries
+Sus scrofa	pig	9823	nonprimate_mammal	expansion (35 genomes)	Sscrofa11.1	GCA_000003025.6	toplevel	Sscrofa11.1	sus_scrofa
+Loxodonta africana	elephant	9785	nonprimate_mammal	expansion (35 genomes)	Loxafr3.0	GCA_000001905.1	toplevel	loxAfr3	loxodonta_africana
+Monodelphis domestica	opossum	13616	nonprimate_mammal	seed search (20 species)	ASM229v1	GCA_000002295.1	toplevel	ASM229v1	monodelphis_domestica
+Ornithorhynchus anatinus	platypus	9258	nonprimate_mammal	expansion (35 genomes)	mOrnAna1.p.v1	GCA_004115215.2	toplevel	mOrnAna1.p.v1	ornithorhynchus_anatinus
+Gallus gallus	chicken	9031	nonmammal_tetrapod	expansion (35 genomes)	bGalGal1.mat.broiler.GRCg7b	GCA_016699485.1	toplevel	bGalGal1.mat.broiler.GRCg7b	gallus_gallus
+Anas platyrhynchos	duck	8839	nonmammal_tetrapod	seed search (20 species)	ASM874695v1	GCA_008746955.1	toplevel	ASM874695v1	anas_platyrhynchos
+Taeniopygia guttata	zebra finch	59729	nonmammal_tetrapod	expansion (35 genomes)	bTaeGut1_v1.p	GCA_003957565.2	toplevel	bTaeGut1_v1.p	taeniopygia_guttata
+Chrysemys picta	painted turtle	8478	nonmammal_tetrapod	seed search (20 species)	Chrysemys_picta_bellii-3.0.3	GCA_000241765.2	toplevel	Chrysemys_picta_bellii-3.0.3	chrysemys_picta_bellii
+Anolis carolinensis	green anole	28377	nonmammal_tetrapod	seed search (20 species)	AnoCar2.0v2	GCA_000090745.2	toplevel	AnoCar2.0v2	anolis_carolinensis
+Naja naja	Indian cobra	35670	nonmammal_tetrapod	expansion (35 genomes)	Nana_v5	GCA_009733165.1	toplevel	Nana_v5	naja_naja
+Crocodylus porosus	saltwater crocodile	8502	nonmammal_tetrapod	expansion (35 genomes)	CroPor_comp1	GCA_001723895.1	toplevel	CroPor_comp1	crocodylus_porosus
+Xenopus tropicalis	tropical clawed frog	8364	nonmammal_tetrapod	expansion (35 genomes)	UCB_Xtro_10.0	GCA_000004195.4	toplevel	UCB_Xtro_10.0	xenopus_tropicalis
+Latimeria chalumnae	coelacanth	7897	other_vertebrate	seed search (20 species)	LatCha1	GCA_000225785.1	toplevel	LatCha1	latimeria_chalumnae
+Lepisosteus oculatus	spotted gar	7918	other_vertebrate	expansion (35 genomes)	LepOcu1	GCA_000242695.1	toplevel	LepOcu1	lepisosteus_oculatus
+Danio rerio	zebrafish	7955	other_vertebrate	expansion (35 genomes)	GRCz11	GCA_000002035.4	primary_assembly	GRCz11	danio_rerio
+Oryzias latipes	medaka	8090	other_vertebrate	seed search (20 species)	ASM223467v1	GCA_002234675.1	toplevel	ASM223467v1	oryzias_latipes
+Gasterosteus aculeatus	stickleback	481459	other_vertebrate	expansion (35 genomes)	GAculeatus_UGA_version5	GCA_016920845.1	toplevel	GAculeatus_UGA_version5	gasterosteus_aculeatus
+Takifugu rubripes	fugu	31033	other_vertebrate	expansion (35 genomes)	fTakRub1.2	GCA_901000725.2	toplevel	fTakRub1.2	takifugu_rubripes
+Salmo salar	Atlantic salmon	8030	other_vertebrate	expansion (35 genomes)	Ssal_v3.1	GCA_905237065.2	toplevel	Ssal_v3.1	salmo_salar
+Petromyzon marinus	sea lamprey	7757	other_vertebrate	seed search (20 species)	Pmarinus_7.0	GCA_000148955.1	toplevel	Pmarinus_7.0	petromyzon_marinus
+Callorhinchus milii	elephant shark	7868	other_vertebrate	seed search (20 species)	Callorhinchus_milii-6.1.3	GCA_000165045.2	toplevel	Callorhinchus_milii-6.1.3	callorhinchus_milii

@@ -1,0 +1,22 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  scoring:
+    # Structure scoring, calibration and shuffles; the language-model tests need a GPU and are run locally.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install (without the language-model stack)
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy scipy pandas joblib numba ViennaRNA pyarrow pytest
+          pip install --no-deps -e .
+      - name: Test
+        run: pytest -m "not model"
